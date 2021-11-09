@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(237, 246, 253);
+  text-align: center;
+  background-image: url(jpeg/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: soft-light;
+}
+
+div {
+  background-color: #bdd7f0;
+}
+
+.imgDiv {
+  width: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 101%;
+}
+
+.container {
+  margin: 100px auto;
+  width: 30%;
+  min-width: 300px;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 0.2em 0.3em 0.3em 0.1em #7097a357;
+  padding: none;
+}
+
+.heading {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+  width: 50%;
+  margin: 0 auto;
+}
+
+.board {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+  padding: 2em;
+}
+
+button {
+  padding: 0.5em 2em;
+  border-radius: 3%;
+  margin: 2em 1em;
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+
+.footer {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+@media (max-width: 900px) {
+  body {
+    background-image: url(jpeg/pattern-background-mobile.svg);
+    background-size: 100% 70%;
+  }
+}
