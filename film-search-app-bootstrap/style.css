@@ -1,0 +1,11 @@
+.name {
+  text-align: center;
+  margin-top: 1em;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.genres {
+  text-align: center;
+  color: rgb(165, 151, 22);
+}
