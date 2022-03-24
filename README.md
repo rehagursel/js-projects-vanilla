@@ -1,6 +1,6 @@
 # Vanilla JavaScript Projects
 
-Some Basic Pure JavaScript Projects
+Some Basic Pure JavaScript Projects (Responsible Design)
 
 ## Film Search App
 
